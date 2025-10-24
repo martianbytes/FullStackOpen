@@ -36,6 +36,5 @@ sequenceDiagram
     server-->>browser: [{ "content": "note 1", "date": "..." }, { "content": "new note!", "date": "..." }]
     deactivate server
 
-    Note right of browser: The browser executes the callback function that renders the list of notes, including the new recently added by the user    
-
+    Note right of browser: The browser executes the callback function that renders the list of notes, including the new recently added by the user
 ```
